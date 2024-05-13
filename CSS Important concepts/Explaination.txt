@@ -1,0 +1,41 @@
+1 :- Understand CSS styling :
+CSS stands for Cascading Style Sheet.CSS ko ham web page ki styling ky liye use karty hai jaisy ky color waigira.
+2 :- Making CSS file :
+CSS file ky liye ham .css extension use karty hai.
+3 :- Unserstanding Linking : 
+CSS file ko html ky sath ky connect karny ka tarika example 3 mai diya gaya hai tittle tag ky just nichy link karty hai.
+4 :- CSS boilerplate : 
+CSS biolerplate ko css likhny sy phly lazmi likh ly baki styling hayesha css ki boilerplate likhny ky bad kary. css ki boilerplate nichy di gayi hai.
+
+*{
+    padding : 0 ;
+    margin : 0 ;
+    box-sizing : border-box ;
+}
+body,html{
+    width : 100% ;  // yaha par % lagana lazmi hai agr na lagye gy to iska matlab kuch or hoga or ye apna kam sahi sy nahi kary paye ga.
+    height : 100% ;
+}
+
+5 :- CSS writing way :
+css mai ham phly kisi element ko target karty hai phr curly braces ky andar key and  value ky pair mai os element ko different properties daity hao.
+6 :- Width and Height : 
+is ko samjhny ky liye daikhy example 6.
+7 :- difference between units px and % ;
+% ko ham zyzda tar tab use karty hai jab hamy kisi bhi element ki height ya width screen ky lihaz sy rakhni ho.hamy screen ky exact size ka pata nahi hota is liye ham osy 100% bol daity hai ab agr half screen  tak kisi elementki width rakhni hai to osy 50% kar dy ga isi tarha or bhi jaisy 25% , 75% , 5% etc.
+px ko ham choti measurement ky liye use karty hai or zyada tar hamy is screen ky size sy compare kar ky use nahi karty balky kisi dsry element sy compare kar ky use karty hai.
+8 :- Margin and Padding : 
+margin hota hai kisi bhi element ky bahir ki space jabky padding hota hai element ky andar ki space. inki 4 side ki values clockwise kam karti hai 
+margin/padding : top right bottom left
+margin/padding : top&bottom right&left
+9 :- Background Image and things related to it :
+daikhy example 9 .
+10 :- Position absolute and relative :
+ *  ham jis element ko position absolute daity hai wo opr oth jata hai or jaga khali chor daita hai. ab agr koi element is ky pichy hoga to wo oski jaga ly ly ga.jisko ham sab sy phly position absolute dygy wo layer one mai othy ga os ky bad jis element ko position absolute dy gy wo os sy bhi opr wali layer mai othy ga isi tarha chlta rahy ga. jab tak ham child ko position absolute nahi dy gy ham osy move nahi karwa saky gy.
+ *  relative position ka matlab hai ky jis element ko  ham position relative daity hai to os esky child jinko position absolute di hoi hai onki values parent element sy compare ho ky chly gi.
+daikhy example 10 .
+11 :- Flexbox :
+CSS mai element vertical  form mai hoty hai inko horizontal karny ky liye ham flexbox use karty hai.
+isky ilawa bhi ham flex box sy bhut kuch kar sakty hai. jaisy display flex dainy ky bad ham justify-content ko use kar ky elements ki width par different actions perform kar sakty hai.
+isi tarha align-item ko use kar ky height par different actions perform kar sakty hai 
+daikhy example 11.
